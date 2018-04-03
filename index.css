@@ -1,5 +1,5 @@
 body{
-  background-color: #EEE2DC;
+  background-color: white;
 
 }
 .flex-parent{
@@ -10,9 +10,10 @@ body{
 .profile{
   width: 30%;
   height: auto;
-  background: #000;
+  background: green;
   margin: 3%;
   padding: 2%;
+  border-radius: 20% solid #000;
 }
 .content{
 width: 70%;
@@ -26,9 +27,50 @@ img{
   margin-left: auto;
   margin-right: auto;
   width: 150px;
-  height: auto;
-  border-radius: auto;
+  height: 150px;
+  border-left: 120;
 }
 h2{
-  color:#fff;
+  color:#red;
+}
+@media only screen and (min-width:520px)and(max-width:780px){
+  .flex-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.profile{
+  width:auto;
+}
+.justify-content{
+  width: auto;
+}
+}
+@media only screen and (min-width 520px)and(max-width:460px){
+  .flex-parent{
+    display: flex;
+    background-color: green;
+    flex-direction: column;
+    justify-content: center;
+  }
+.profile{
+  width:auto;
+}
+.justify-content{
+  width: auto;
+}
+}
+@media only screen and (min-width 480px)and (max-width:525px){
+  .flex-parent{
+    display: flex;
+    background-color: inherit;
+    flex-direction: column;
+    justify-content: center;
+  }
+.profile{
+  width:auto;
+}
+.justify-content{
+  width: auto;
+}
 }
