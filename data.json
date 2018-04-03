@@ -1,6 +1,19 @@
 {
-  "objective":
+  "career":
   {
   "info": "with the full job satisfaction professionacy in know aspects"
+},
+"eduction":[
+{
+  "degree":"ssc",
+  "school":"rayalaseema high school",
+  "data":["2013","9.0"]
+},
+{
+  "degree":"inter",
+  "college":"chaitnya jr college",
+  "data":["2015","8.0"]
 }
+]
+
 }
