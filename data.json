@@ -3,17 +3,34 @@
   {
   "info": "with the full job satisfaction professionacy in know aspects"
 },
-"eduction":[
+"education":[
 {
   "degree":"ssc",
-  "school":"rayalaseema high school",
+  "institution":"rayalaseema high school",
   "data":["2013","9.0"]
 },
 {
   "degree":"inter",
-  "college":"chaitnya jr college",
+  "institution":"yoghanadha jr college",
   "data":["2015","8.0"]
 }
+],
+"skills":[
+  {
+    "name":"Operating system",
+    "info":["LINUX","WINDOWS"]
+  },
+  {
+    "name":"LANGUAGE",
+    "info":["c","java","Python"]
+  },
+  {
+    "name":"Database",
+    "info":["mysql","oracle"]
+  },
+  {
+    "name":"Web Technologies",
+    "info":["html","css","javascript"]
+  }
 ]
-
 }
